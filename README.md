@@ -4,17 +4,19 @@
 This repository hosts a comprehensive analysis and implementation of control models for a helicrane device using advanced modeling and control strategies. It includes two distinct modeling approaches: an Artificial Neural Network (ANN) and a Takagi-Sugeno model utilizing multiple Local Linear Models (LLMs) calculated using Least Squares Estimation (LSE) combined with the set of fuzzy rules, obtained using the Gustafson-Kessel fuzzy clustering. The project further explores the application of a Predictive Functional Controller (PFC) based on the Takagi-Sugeno model. 
 
 ## Objectives
-- Develop and compare two modeling approaches (ANN and Takagi-Sugeno with LLM) for helicrane dynamics.
+- Develop and compare two modeling approaches (ANN and Takagi-Sugeno with LLM) for helicrane dynamics. 
 - Implement a PFC controller based on the Takagi-Sugeno model.
 - Analyze the effectiveness of each model and the controller in managing helicrane dynamics.
 
 ## Methodology
-- Description and implementation of the ANN model for helicrane dynamics.
+- Description and implementation of the ANN model for helicrane dynamics. Bellow we show the results of ANN model on the training signals.
 <div style="display: flex; justify-content: space-between;">
   <img src="docs/ANN_input.jpg" alt="Representation of the Task Problem" width="300"/>
   <img src="docs/ANN_training.jpg" alt="Representation of the Task Problem" width="300"/>
 </div>
-
+The results of ANN model on the testing signals:
+ <img src="docs/ANN_testing" alt="Representation of the Task Problem" width="300"/>
+ 
 - Development of the Takagi-Sugeno model, featuring multiple LLMs obtained through weighted LSE and Gustafson-Kessel fuzzy clustering.
 - Detailed design and implementation of the PFC controller.
 
