@@ -22,8 +22,8 @@ The results of ANN model on the testing signals:
 - Development of the Takagi-Sugeno model, incorporating multiple Local Linear Models (LLMs) obtained through weighted Least Squares Estimation (LSE) and Gustafson-Kessel fuzzy clustering. Below, we present the membership functions derived from the Gustafson-Kessel fuzzy clustering process, along with the corresponding rule structure. We also show the input signal for identification and the models ouptut for the training and testing signals.
   
   <div style="display: flex; justify-content: space-between;">
-  <img src="docs/membership_functions.jpg" alt="Representation of the Task Problem" width="300"/>
-  <img src="docs/rule_structure.jpg" alt="Representation of the Task Problem" width="300"/>
+    <img src="docs/membership_functions.jpg" alt="Representation of the Task Problem" width="300"/>
+    <img src="docs/rule_structure.jpg" alt="Representation of the Task Problem" width="300"/>
    <img src="docs/TS_input.jpg" alt="Representation of the Task Problem" width="300"/>
     <img src="docs/TS_training.jpg" alt="Representation of the Task Problem" width="300"/>
     <img src="docs/TS_testing.jpg" alt="Representation of the Task Problem" width="300"/>
