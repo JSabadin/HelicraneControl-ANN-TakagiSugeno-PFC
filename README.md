@@ -34,7 +34,7 @@ The results of ANN model on the testing signals:
 </div>
 
 ## File Description
--  [HelicraneControl-ANN-TakagiSugeno-PFC Methodology (PDF)](HelicraneControlAnalysis.pdf):: This document provides an in-depth theoretical background, the methodology employed, and a detailed analysis of the comparative performance of the models and the controller.
+-  [HelicraneControl-ANN-TakagiSugeno-PFC Methodology (PDF)](HelicraneControlAnalysis.pdf): This document provides an in-depth theoretical background, the methodology employed, and a detailed analysis of the comparative performance of the models and the controller.
 
 ## Technologies and Techniques
 - Artificial Neural Networks (ANN)
