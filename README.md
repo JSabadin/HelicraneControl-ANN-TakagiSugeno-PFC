@@ -15,7 +15,7 @@ This repository hosts a comprehensive analysis and implementation of control mod
   <img src="docs/ANN_training.jpg" alt="Representation of the Task Problem" width="300"/>
 </div>
 The results of ANN model on the testing signals:
- <img src="docs/ANN_testing" alt="Representation of the Task Problem" width="300"/>
+ <img src="docs/ANN_testing.jpg" alt="Representation of the Task Problem" width="300"/>
  
 - Development of the Takagi-Sugeno model, featuring multiple LLMs obtained through weighted LSE and Gustafson-Kessel fuzzy clustering.
 - Detailed design and implementation of the PFC controller.
