@@ -10,6 +10,11 @@ This repository hosts a comprehensive analysis and implementation of control mod
 
 ## Methodology
 - Description and implementation of the ANN model for helicrane dynamics.
+<div style="display: flex; justify-content: space-between;">
+  <img src="docs/ANN_input.jpg" alt="Representation of the Task Problem" width="300"/>
+  <img src="docs/ANN_training.jpg" alt="Representation of the Task Problem" width="300"/>
+</div>
+
 - Development of the Takagi-Sugeno model, featuring multiple LLMs obtained through weighted LSE and Gustafson-Kessel fuzzy clustering.
 - Detailed design and implementation of the PFC controller.
 
