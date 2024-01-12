@@ -27,7 +27,11 @@ The results of ANN model on the testing signals:
     <img src="docs/TS_testing.jpg" alt="Representation of the Task Problem" width="300"/>
 </div>
 
-- Detailed design and implementation of the PFC controller.
+- Detailed design and implementation of the PFC controller. Bellow, we show the results to the stepped reference.
+  <div style="display: flex; justify-content: space-between;">
+      <img src="docs/reference_tracking_ouptut.jpg" alt="Representation of the Task Problem" width="300"/>
+  <img src="docs/reference_tracking_input.jpg" alt="Representation of the Task Problem" width="300"/>
+</div>
 
 ## File Description
 -  [HelicraneControl-ANN-TakagiSugeno-PFC Methodology (PDF)](HelicraneControlAnalysis.pdf):: This document provides an in-depth theoretical background, the methodology employed, and a detailed analysis of the comparative performance of the models and the controller.
