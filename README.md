@@ -22,9 +22,9 @@ The results of ANN model on the testing signals:
   <div style="display: flex; justify-content: space-between;">
   <img src="docs/membership_functions.jpg" alt="Representation of the Task Problem" width="300"/>
   <img src="docs/rule_structure.jpg" alt="Representation of the Task Problem" width="300"/>
-   <img src="docs/TS_input" alt="Representation of the Task Problem" width="300"/>
-    <img src="docs/TS_training" alt="Representation of the Task Problem" width="300"/>
-    <img src="docs/TS_testing" alt="Representation of the Task Problem" width="300"/>
+   <img src="docs/TS_input.jpg" alt="Representation of the Task Problem" width="300"/>
+    <img src="docs/TS_training.jpg" alt="Representation of the Task Problem" width="300"/>
+    <img src="docs/TS_testing.jpg" alt="Representation of the Task Problem" width="300"/>
 </div>
 
 - Detailed design and implementation of the PFC controller.
