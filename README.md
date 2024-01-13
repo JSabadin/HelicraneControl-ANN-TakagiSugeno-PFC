@@ -11,29 +11,30 @@ This repository hosts a comprehensive analysis and implementation of control mod
 ## Methodology
 - Description and implementation of the ANN model for helicrane dynamics. Bellow we show the results of ANN model on the training signals.
   
-  <div style="display: flex; justify-content: space-between;">
-  <img src="docs/ANN_input.jpg" alt="Representation of the Task Problem" width="300"/>
-  <img src="docs/ANN_training.jpg" alt="Representation of the Task Problem" width="300"/>
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+    <img src="docs/ANN_input.jpg" alt="ANN Input" width="300"/>
+    <img src="docs/ANN_training.jpg" alt="ANN Training" width="300"/>
   </div>
+  
 The results of ANN model on the testing signals:
 
- <img src="docs/ANN_testing.jpg" alt="Representation of the Task Problem" width="300"/>
+ <img src="docs/ANN_testing.jpg" alt="ANN Testing" style="display: block; margin-left: auto; margin-right: auto; width: 300px;"/>
  
-- Development of the Takagi-Sugeno model, incorporating multiple Local Linear Models (LLMs) obtained through weighted Least Squares Estimation (LSE) and Gustafson-Kessel fuzzy clustering. Below, we present the membership functions derived from the Gustafson-Kessel fuzzy clustering process, along with the corresponding rule structure. We also show the input signal for identification and the models ouptut for the training and testing signals.
+- Development of the Takagi-Sugeno model, incorporating multiple Local Linear Models (LLMs) obtained through weighted Least Squares Estimation (LSE) and Gustafson-Kessel fuzzy clustering. Below, we present the membership functions derived from the Gustafson-Kessel fuzzy clustering process, along with the corresponding rule structure. We also show the input signal for identification and the models output for the training and testing signals.
   
-  <div style="display: flex; justify-content: space-between;">
-    <img src="docs/membership_functions.jpg" alt="Representation of the Task Problem" width="300"/>
-    <img src="docs/rule_structure.jpg" alt="Representation of the Task Problem" width="300"/>
-   <img src="docs/TS_input.jpg" alt="Representation of the Task Problem" width="300"/>
-    <img src="docs/TS_training.jpg" alt="Representation of the Task Problem" width="300"/>
-    <img src="docs/TS_testing.jpg" alt="Representation of the Task Problem" width="300"/>
-</div>
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+    <img src="docs/membership_functions.jpg" alt="Membership Functions" width="300"/>
+    <img src="docs/rule_structure.jpg" alt="Rule Structure" width="300"/>
+    <img src="docs/TS_input.jpg" alt="Takagi-Sugeno Input" width="300"/>
+    <img src="docs/TS_training.jpg" alt="Takagi-Sugeno Training" width="300"/>
+    <img src="docs/TS_testing.jpg" alt="Takagi-Sugeno Testing" width="300"/>
+  </div>
 
 - Detailed design and implementation of the PFC controller. Bellow, we show the results to the stepped reference.
-  <div style="display: flex; justify-content: space-between;">
-      <img src="docs/reference_tracking_ouptut.jpg" alt="Representation of the Task Problem" width="300"/>
-  <img src="docs/reference_tracking_input.jpg" alt="Representation of the Task Problem" width="300"/>
-</div>
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+    <img src="docs/reference_tracking_output.jpg" alt="Reference Tracking Output" width="300"/>
+    <img src="docs/reference_tracking_input.jpg" alt="Reference Tracking Input" width="300"/>
+  </div>
 
 ## File Description
 -  [HelicraneControl-ANN-TakagiSugeno-PFC Methodology (PDF)](HelicraneControlAnalysis.pdf): This document provides an in-depth theoretical background, the methodology employed, and a detailed analysis of the comparative performance of the models and the controller.
