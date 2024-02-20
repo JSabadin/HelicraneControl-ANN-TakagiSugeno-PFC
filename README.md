@@ -43,6 +43,6 @@ The results of ANN model on the testing signals:
 ## Technologies and Techniques
 - Artificial Neural Networks (ANN)
 - Takagi-Sugeno Modeling with Local Linear Models (LLM)
-- Least Squares Estimation (LSE)
+- Weighted Least Squares Estimation (WLSE)
 - Gustafson-Kessel Fuzzy Clustering
 - Predictive Functional Control (PFC)
