@@ -16,7 +16,7 @@ This repository hosts a comprehensive analysis and implementation of control mod
   <img src="docs/ANN_training.jpg" alt="Representation of the Task Problem" width="300"/>
   </div>
 The results of ANN model on the testing signals:
-
+<img src="docs/TS_input_testing.jpg" alt="Representation of the Task Problem" width="300"/>
  <img src="docs/ANN_testing.jpg" alt="Representation of the Task Problem" width="300"/>
  
 - Development of the Takagi-Sugeno model, incorporating multiple Local Linear Models (LLMs) obtained through weighted Least Squares Estimation (LSE) and Gustafson-Kessel fuzzy clustering. Below, we present the membership functions derived from the Gustafson-Kessel fuzzy clustering process, along with the corresponding rule structure. We also show the input signal for identification and the models ouptut for the training and testing signals.
