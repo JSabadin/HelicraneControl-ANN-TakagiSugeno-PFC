@@ -26,7 +26,7 @@ The results of ANN model on the testing signals:
     <img src="docs/rule_structure.jpg" alt="Representation of the Task Problem" width="300"/>
    <img src="docs/TS_input.jpg" alt="Representation of the Task Problem" width="300"/>
     <img src="docs/TS_training.jpg" alt="Representation of the Task Problem" width="300"/>
-    img src="docs/TS_input_testing.jpg" alt="Representation of the Task Problem" width="300"/>
+    <img src="docs/TS_input_testing.jpg" alt="Representation of the Task Problem" width="300"/>
     <img src="docs/TS_testing.jpg" alt="Representation of the Task Problem" width="300"/>
 </div>
 
