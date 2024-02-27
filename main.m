@@ -219,7 +219,6 @@ legend(arrayfun(@(x) sprintf('Cluster %d', x), 1:cluster_n, 'UniformOutput', fal
 sgtitle('Membership Functions in the premise of the rule');
 
 %%
-% ... [Your existing code up to generating x_range] ...
 
 % Create a meshgrid for 3D plotting
 [X, Y] = meshgrid(x_range, x_range);
